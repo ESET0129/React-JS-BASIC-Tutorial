@@ -5,6 +5,13 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  var x =5;
+  console.log(x);
+  
+  var x=7;
+  //console.log(x);
+
+
   //count=0;
   //increment=() =>count+1;
   //decrement=() =>count-1;
@@ -38,12 +45,14 @@ function App() {
   return(
     <div>
       <h1>COUNTER</h1>
+      
     <h2 id='a'>0</h2>
     <button onClick={()=>{
       const element=document.getElementById('a');
       var current=parseInt(element.textContent)
       element.textContent=current+1;
     }
+    
     }>
       increment</button>
       
