@@ -5,10 +5,43 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  var x =5;
-  console.log(x);
+//  var x =5;
+ // console.log(x);
   
-  var x=7;
+ // var x=7;
+
+  // const user={name:ss,age:10};
+
+	// const name = user.name;
+	// const age = user.age;
+
+	// const{ name, age }=user,
+	// console.log(name, age);
+// const user = { name: "John", age: 25 };
+// const { name, age } = user;
+// console.log(name, age);
+
+	// const prev ={a:2,b:1};
+	// const next ={ ...prev,b:22};
+	
+	// console.log(next);
+  // console.log(prev);
+
+//prop rest
+  // const {title, ...rest}= props;
+  // return <input{...rest}/>;
+
+//function args rest
+// function sum(a,...nums){
+//   return nums.reduce9(s,n) => s+n,a);
+//}
+
+const user={name:"abc",age:21,place:"manglore"}
+const {name,...rest}=user;
+console.log(name);
+console.log(rest);
+
+
   //console.log(x);
 
 
